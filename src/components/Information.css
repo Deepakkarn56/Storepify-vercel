@@ -1,0 +1,156 @@
+.Logo-link{
+    display: flex;
+}
+.flex{
+    display: flex;
+}
+.logo-img{
+    display: block;
+    height: auto;
+    max-width: 300px;
+}
+.nbredcrub{
+    font-size: 12px;
+}
+.nbredcrubd a{
+    text-decoration: none !important;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content: var(--bs-breadcrumb-divider, ">");
+}
+.mb{
+    margin-bottom: 2rem;
+}
+.mbb{
+    margin-bottom: 1rem;
+}
+.id-info h5{
+    font-weight: normal;
+}
+.id-info h6{
+    font-weight: normal;
+    font-size: 14px;
+}
+.id-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.left{
+    text-align: left;
+}
+.in-info h6{
+    font-weight: 500;
+    font-size: 14px;
+}
+.continueship{
+    background-color: #1773b0;
+    color: white;
+    font-size: 15px;
+    height: 55px;
+}
+.continueship:hover{
+    background-color: #105989;
+}
+.justify{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.justf{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.marbot{
+    margin-bottom: 50px;
+}
+.lesimg img{
+    width: 13px;
+    height: auto;
+}
+.lesimg{
+    text-decoration: none;
+}
+.policy-service{
+    margin-top: -5px;
+}
+.policy-service a{
+    font-size: 13px;
+    margin: 10px;
+    text-decoration: none;
+}
+.pictureim{
+    background-color: white;
+    border: 1px solid #cfcfcf;
+    width: fit-content;
+    border-radius: 10%;
+}
+.pictureim img{
+    padding: 0px 5px;
+}
+.formcont{
+    width: 159% !important;
+    height: 50px !important;
+}
+.butdiscount{
+    margin-top: 5px;
+    margin-left: 140px;
+    width: 75px;
+    height: 40px;
+}
+.discontspace{
+    margin-top: 1rem;
+    border-bottom: 1px solid #cfcfcf;
+}
+.bb{
+    border-bottom: 1px solid #cfcfcf;
+}
+.mttt{
+    margin-top: 1rem;
+    padding-right: 15px;
+}
+.scrollimg{
+    height: 50vh;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+.scrcol{
+    padding-left: 25px;
+    margin-top: 50px;
+    width: fit-content;
+}
+@media (min-width:770px) {
+    .div-amedia{
+        display: none;
+    }
+}
+@media (max-width:770px) {
+    .colsize{
+        display: none;
+    }
+    .div-mai{
+        padding-right: 0px !important;
+    }
+    .div-buton{
+        width: 100%;
+    }
+    .div-a{
+        display: none;
+    }
+    .div-amedia{
+        display:contents;
+        width: 100%;
+        text-align: center;
+    }
+    .lesimg{
+        text-align: center;
+        margin-inline: auto;
+    }
+    
+    .continueship{
+        width: 100%;
+        height: 60px;
+    }
+}

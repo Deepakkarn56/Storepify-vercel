@@ -1,0 +1,311 @@
+
+.upper {
+    margin-top: 50px;
+
+}
+
+
+.img {
+    margin-top: 10px;
+}
+
+.img3 {
+    width: 46%;
+}
+
+.carousel .thumbs-wrapper {
+    margin: 25px 0px !important;
+    
+}
+
+.box {
+    height: 20px;
+    width: 50%;
+    border-radius: 200%;
+    color: #ff0000;
+    box-shadow: #0000ff;
+}
+
+.thumbs {
+    margin-left: -44px !important;
+}
+
+.thumb {
+    width: 145px !important;
+    height: 10rem;
+    margin-left: 12px;
+}
+
+.carousel-status {
+    display: none;
+}
+
+.thumb img {
+    height: 155px !important;
+    width: 9rem !important;
+}
+
+.img2 {
+    margin-right: 50px;
+
+}
+
+.input {
+    margin-top: 10px;
+}
+
+.input-group {
+    display: flex;
+
+}
+.overlay {
+    position: relative;
+    bottom: 0;
+    background: black;
+    color: #f1f1f1;
+    margin-top: -85px;
+    background: linear-gradient(to right, black 50%, white 50%);
+    background-size: 200% ;
+    background-position: right bottom;
+    width: 80%;
+    margin-left: 20px !important;
+    transition: .6s ease;
+    opacity: 0;
+    border-radius: 3px;
+    line-height: 40px;
+    font-size: 16px;
+    height: 40px;
+    text-align: center;
+}
+
+.click:hover .overlay {
+    opacity: 1;
+    background-position: left bottom;
+
+}
+.eyes{
+    position: relative;
+  top: -270px;
+  left: 160px;
+  color: black !important;
+  /* border-radius: 50%; */
+  color: black !important;
+  border-radius: 50%;
+  height: 30px;
+  will-change: transform;
+ border: none;
+ line-height: 1;
+ background-color: white;
+  width: 30px;
+  opacity: 0;
+  font-weight: 300px;
+}
+.click:hover .eyes{
+    opacity: 1;
+    
+}
+.heart{
+    position: relative;
+  top: -310px;
+  left: 190px;
+  font-size: 25px;
+  color: black !important;
+  border-radius: 50%;
+  height: 30px;
+  will-change: transform;
+ border: none;
+ line-height: 1;
+ background-color: white;
+  width: 30px;
+  opacity: 0;
+}
+.click:hover .heart{
+    opacity: 1;
+    
+}
+.compare{
+    position: relative;
+  top: -230px;
+  left: 130px;
+  font-size: 25px;
+  color: black !important;
+  border-radius: 50%;
+  height: 30px;
+  will-change: transform;
+ border: none;
+ line-height: 1;
+ background-color: white;
+  width: 30px;
+  opacity: 0;
+}
+.click:hover .compare{
+    opacity: 1;
+    
+}
+
+.fav {
+    margin-top: 10px;
+}
+
+.vehicle1 {
+    width: 20px;
+}
+
+.color {
+    color: black;
+}
+
+.v {
+    margin-top: 5px;
+}
+
+.dil:hover {
+    color: #ff0000;
+
+}
+
+
+
+.img-container {
+    overflow: hidden;
+
+}
+
+.img-container img {
+    transition: transform 0.9s;
+}
+
+.img-container :hover {
+    transform: scale(1.1);
+
+}
+
+a.u:link {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a.u:visited {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+a.u:hover {
+    text-decoration: underline;
+}
+
+a.s {
+    color: green;
+    text-decoration: none;
+}
+
+.col {
+    flex: 1;
+    /* margin: -15px; */
+    box-sizing: border-box;
+    width: 270px;
+    margin-top: 20px;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.border-0 {
+    border-radius: unset !important;
+}
+
+.card-img {
+    border-radius: unset !important;
+}
+
+.mid {
+    text-align: center;
+}
+
+.no {
+    margin-top: 100px;
+
+}
+
+.icons {
+    text-decoration: none;
+    color: black;
+
+
+a.icon:hover {
+    color: blue;
+    /* text-decoration:none; */
+}
+
+.control-arrow {
+    display: none !important;
+}
+
+
+.d {
+    margin-top: 15px;
+}
+
+.eye {
+    margin-top: 15px;
+
+}
+
+.fire {
+    margin-top: 10px;
+    color: yellow;
+}
+
+.size {
+    border: 1px solid black;
+    margin-right: 5px;
+    width: 25px;
+    margin-top: 5px;
+}
+
+
+.del {
+    color: gray;
+}
+
+@media (max-width:770px) {
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        align-items: center;
+    }
+
+    .img3 {
+        width: 100%;
+    }
+
+    .col {
+        display: block;
+        align-items: center;
+
+    }
+
+    .dn {
+        display: none !important;
+    }
+
+    .circle {
+        margin-bottom: 5px;
+    }
+
+    .class {
+        width: 80%;
+        margin-left: 35px;
+        /* align-items: center;
+        position: relative; */
+    }
+
+    .no {
+        text-align: left;
+    }
+}
